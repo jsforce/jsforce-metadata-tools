@@ -28,6 +28,7 @@
   },
   "dependencies": {
     "archiver": "^0.14.4",
+    "commander": "^2.8.1",
     "jsforce": "^1.5.0"
   },
   "devDependencies": {
