@@ -16,7 +16,7 @@
   "author": "Shinichi Tomita <shinichi.tomita@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git://github.com/jsforce/jsforce-deploy.git"
+    "url": "git://github.com/jsforce/jsforce-metadata-tools.git"
   },
   "license": "MIT",
   "main": "lib/index.js",
