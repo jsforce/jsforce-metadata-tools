@@ -26,6 +26,13 @@
   "bin": {
     "jsforce-deploy": "./bin/jsforce-deploy"
   },
+  "files": [
+    "README.md",
+    "package.json",
+    "bin",
+    "lib",
+    "test"
+  ],
   "dependencies": {
     "archiver": "^0.14.4",
     "commander": "^2.8.1",
