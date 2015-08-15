@@ -1,7 +1,7 @@
 {
   "name": "jsforce-metadata-tools",
-  "version": "1.0.0",
-  "description": "Tools for deploying/retrieving package files using Metadata API via JSforce",
+  "version": "1.0.1",
+  "description": "Tools for deploying/retrieving package files using Salesforce Metadata API via JSforce",
   "keywords": [
     "salesforce",
     "salesforce.com",
@@ -24,7 +24,8 @@
     "test": "mocha --require intelli-espower-loader"
   },
   "bin": {
-    "jsforce-deploy": "./bin/jsforce-deploy"
+    "jsforce-deploy": "./bin/jsforce-deploy",
+    "jsforce-retrieve": "./bin/jsforce-retrieve"
   },
   "files": [
     "README.md",
