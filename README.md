@@ -1,4 +1,4 @@
-# jsforce-metadata-tools
+# jsforce-metadata-tools [![Build Status](https://travis-ci.org/jsforce/jsforce-metadata-tools.svg)](https://travis-ci.org/jsforce/jsforce-metadata-tools)
 
 Tools for deploying/retrieving package files using Metadata API via [JSforce](https://jsforce.github.io/).
 
