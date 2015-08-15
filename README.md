@@ -1,6 +1,6 @@
 # jsforce-metadata-tools [![Build Status](https://travis-ci.org/jsforce/jsforce-metadata-tools.svg)](https://travis-ci.org/jsforce/jsforce-metadata-tools)
 
-Tools for deploying/retrieving package files using Metadata API via [JSforce](https://jsforce.github.io/).
+Tools for deploying/retrieving package files using Salesforce Metadata API via [JSforce](https://jsforce.github.io/).
 
 Provides command line interface (CLI) to easily deploy/retrieve packages.
 
@@ -39,7 +39,7 @@ $ jsforce-retrieve -u username@example.org -p ${SF_PASSWORD} -D ./path/to/packag
 #### Retrieve package files by specifying metadata types/members to retrieve
 
 ```
-$ jsforce-retrieve -u username@example.org -p ${SF_PASSWORD} --memberTypes "ApexClass:Class1,Class2;ApexPage:*" --directory ./path/to/distDir
+$ jsforce-retrieve -u username@example.org -p ${SF_PASSWORD} --memberTypes "ApexClass:Class1,Class2;ApexPage:*" -D ./path/to/distDir
 ```
 
 #### Retrieve package files by specifying package names to retrieve
