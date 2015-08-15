@@ -63,7 +63,7 @@ $ jsforce-retrieve -u username@example.org -p ${SF_PASSWORD} --packageName Packa
 
 ### OAuth-based Authorization
 
-Once the authorization is done in JSforce REPL, the connection is also valid in these tools (no password required)
+Once the authorization is done in JSforce REPL, the same connection is also valid here (no password required)
 
 ```
 $ jsforce
