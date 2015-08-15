@@ -13,19 +13,57 @@ $ npm install jsforce-metadata-tools -g
 
 ## Usage
 
-### Deploying package from local directory
+### Deploy
+
+#### Deploy package from local directory
 
 ```
-$ jsforce-deploy -u username@example.org -p ${SF_PASSWORD} --directory ./path/to/packageDir
+$ jsforce-deploy -u username@example.org -p ${SF_PASSWORD} -D ./path/to/packageDir
 ```
 
-### Deploying package from archived ZIP file
+#### Deploy package from ZIP archive file
 
 ```
-$ jsforce-deploy -u username@example.org -p ${SF_PASSWORD} --package ./path/to/package.zip
+$ jsforce-deploy -u username@example.org -p ${SF_PASSWORD} -Z ./path/to/package.zip
 ```
 
-### Using connection authorized in JSforce REPL (no password required)
+### Retrieve
+
+#### Retrieve package files and write them under the directory
+
+(Assuming that `./path/to/packageDir` directory has a `package.xml` file inside)
+```
+$ jsforce-retrieve -u username@example.org -p ${SF_PASSWORD} -D ./path/to/packageDir
+```
+
+#### Retrieve package files by specifying metadata types/members to retrieve
+
+```
+$ jsforce-retrieve -u username@example.org -p ${SF_PASSWORD} --memberTypes "ApexClass:Class1,Class2;ApexPage:*" --directory ./path/to/distDir
+```
+
+#### Retrieve package files by specifying package names to retrieve
+
+```
+$ jsforce-retrieve -u username@example.org -p ${SF_PASSWORD} --packageNames "Package1,Package2" -D "./path/to/distDir1,./path/to/distDir2"
+```
+
+#### Retrieve package files by specifying package.xml file
+
+```
+$ jsforce-retrieve -u username@example.org -p ${SF_PASSWORD} -P ./path/to/package.xml -D ./path/to/distDir
+```
+
+#### Retrieve package and output as a ZIP archive file 
+
+```
+$ jsforce-retrieve -u username@example.org -p ${SF_PASSWORD} --packageName Package1 -Z ./path/to/package.zip
+```
+
+
+### OAuth-based Authorization
+
+Once the authorization is done in JSforce REPL, the connection is also valid in these tools (no password required)
 
 ```
 $ jsforce
@@ -40,7 +78,7 @@ Authorized. Fetching user info...
 Logged in as : username@example.org
 > .exit
 
-$ jsforce-deploy -c username@example.org --directory ./path/to/pkg
+$ jsforce-deploy -c username@example.org -D ./path/to/packageDir
 ```
 
 
