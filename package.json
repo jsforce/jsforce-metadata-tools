@@ -29,7 +29,10 @@
   "dependencies": {
     "archiver": "^0.14.4",
     "commander": "^2.8.1",
-    "jsforce": "^1.5.0"
+    "fstream": "^1.0.7",
+    "jsforce": "^1.5.0",
+    "readable-stream": "^2.0.2",
+    "unzip": "^0.1.11"
   },
   "devDependencies": {
     "espower-loader": "^0.10.0",
