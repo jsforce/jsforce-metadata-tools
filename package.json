@@ -32,7 +32,8 @@
     "fstream": "^1.0.7",
     "jsforce": "^1.5.0",
     "readable-stream": "^2.0.2",
-    "unzip": "^0.1.11"
+    "unzip": "^0.1.11",
+    "xml2js": "^0.4.10"
   },
   "devDependencies": {
     "espower-loader": "^0.10.0",
