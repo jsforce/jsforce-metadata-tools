@@ -1,6 +1,6 @@
 {
   "name": "jsforce-metadata-tools",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Tools for deploying/retrieving package files using Salesforce Metadata API via JSforce",
   "keywords": [
     "salesforce",
