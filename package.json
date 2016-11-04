@@ -35,7 +35,7 @@
     "test"
   ],
   "dependencies": {
-    "archiver": "^0.14.4",
+    "archiver": "^1.0.0",
     "commander": "^2.8.1",
     "fstream": "^1.0.7",
     "jsforce": "^1.5.0",
@@ -44,9 +44,9 @@
     "xml2js": "^0.4.10"
   },
   "devDependencies": {
-    "espower-loader": "^0.10.0",
-    "intelli-espower-loader": "^0.6.0",
+    "espower-loader": "^1.0.0",
+    "intelli-espower-loader": "^1.0.1",
     "mocha": "^2.2.5",
-    "power-assert": "^0.11.0"
+    "power-assert": "^1.4.1"
   }
 }
