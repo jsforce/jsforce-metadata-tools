@@ -35,12 +35,12 @@
     "test"
   ],
   "dependencies": {
-    "archiver": "^1.2.0",
+    "archiver": "^1.2.4",
     "commander": "^2.9.0",
+    "decompress": "^4.0.0",
     "fstream": "^1.0.10",
     "jsforce": "^1.7.1",
     "readable-stream": "^2.1.5",
-    "unzip": "^0.1.11",
     "xml2js": "^0.4.17"
   },
   "devDependencies": {
