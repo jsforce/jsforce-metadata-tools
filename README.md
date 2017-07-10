@@ -57,7 +57,7 @@ $ jsforce-retrieve -u username@example.org -p ${SF_PASSWORD} -P ./path/to/packag
 #### Retrieve package and output as a ZIP archive file 
 
 ```
-$ jsforce-retrieve -u username@example.org -p ${SF_PASSWORD} --packageName Package1 -Z ./path/to/package.zip
+$ jsforce-retrieve -u username@example.org -p ${SF_PASSWORD} --packageNames Package1 -Z ./path/to/package.zip
 ```
 
 
