@@ -39,14 +39,14 @@
     "commander": "^2.9.0",
     "decompress": "^4.0.0",
     "fstream": "^1.0.10",
-    "jsforce": "^1.7.1",
+    "jsforce": "^1.9.1",
     "readable-stream": "^2.1.5",
     "xml2js": "^0.4.17"
   },
   "devDependencies": {
     "espower-loader": "^1.0.1",
     "intelli-espower-loader": "^1.0.1",
-    "mocha": "^3.1.2",
+    "mocha": "^5.2.0",
     "power-assert": "^1.4.1"
   }
 }
